@@ -3,7 +3,6 @@
 #include <ctype.h>
 #include "utility.h"
 
-enum { NAME, PARENS, BRACKETS };
 int tokentype;
 char token[MAXTOKEN];
 char name[MAXTOKEN];
